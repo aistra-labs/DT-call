@@ -21,14 +21,16 @@ const Chat = () => {
       <Typography variant="h5" gutterBottom style={{ color: "#fff" }}>
         Conversation
       </Typography>
-      <List style={{overflow:"scroll" , maxHeight:"670px"}}>
+      <List style={{ overflow: "scroll", height: "93%" }}>
         <ListItem alignItems="flex-start">
           <Avatar sx={{ bgcolor: "#212121", color: "#fff" }}>U</Avatar>
           <ListItemText
             primary="User"
-            secondary={<Typography
-              color="#ccc" 
-            >Hello! my name is Kritika. How can I help you today?</Typography> }
+            secondary={
+              <Typography color="#ccc">
+                Hello! my name is Kritika. How can I help you today?
+              </Typography>
+            }
             sx={{
               background: "#212121",
               color: "#fff",
@@ -41,9 +43,11 @@ const Chat = () => {
           <Avatar sx={{ bgcolor: "#212121", color: "#fff" }}>B</Avatar>
           <ListItemText
             primary="Bot"
-            secondary={<Typography
-              color="#ccc" 
-            >Hello! my name is Kritika. How can I help you today?</Typography> }
+            secondary={
+              <Typography color="#ccc">
+                Hello! my name is Kritika. How can I help you today?
+              </Typography>
+            }
             sx={{
               background: "#212121",
               color: "#fff",
@@ -56,9 +60,14 @@ const Chat = () => {
           <Avatar sx={{ bgcolor: "#212121", color: "#fff" }}>U</Avatar>
           <ListItemText
             primary="User"
-            secondary={<Typography
-              color="#ccc" 
-            >It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,</Typography> }
+            secondary={
+              <Typography color="#ccc">
+                It has survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages,
+              </Typography>
+            }
             sx={{
               background: "#212121",
               color: "#fff",
@@ -71,9 +80,11 @@ const Chat = () => {
           <Avatar sx={{ bgcolor: "#212121", color: "#fff" }}>B</Avatar>
           <ListItemText
             primary="Bot"
-            secondary={<Typography
-              color="#ccc" 
-            >Hello! my name is Kritika. How can I help you today?</Typography> }
+            secondary={
+              <Typography color="#ccc">
+                Hello! my name is Kritika. How can I help you today?
+              </Typography>
+            }
             sx={{
               background: "#212121",
               color: "#fff",
@@ -86,9 +97,15 @@ const Chat = () => {
           <Avatar sx={{ bgcolor: "#212121", color: "#fff" }}>U</Avatar>
           <ListItemText
             primary="User"
-            secondary={<Typography
-              color="#ccc" 
-            >Hello! my name is Kritika. How can I help you today Hello! my name is Kritika. How can I help you today Hello! my name is Kritika. How can I help you today Hello! my name is Kritika. How can I help you today Hello! my name is Kritika. How can I help you today?</Typography> }
+            secondary={
+              <Typography color="#ccc">
+                Hello! my name is Kritika. How can I help you today Hello! my
+                name is Kritika. How can I help you today Hello! my name is
+                Kritika. How can I help you today Hello! my name is Kritika. How
+                can I help you today Hello! my name is Kritika. How can I help
+                you today?
+              </Typography>
+            }
             sx={{
               background: "#212121",
               color: "#fff",
@@ -101,9 +118,11 @@ const Chat = () => {
           <Avatar sx={{ bgcolor: "#212121", color: "#fff" }}>U</Avatar>
           <ListItemText
             primary="User"
-            secondary={<Typography
-              color="#ccc" 
-            >Hello! my name is Kritika. How can I help you today?</Typography> }
+            secondary={
+              <Typography color="#ccc">
+                Hello! my name is Kritika. How can I help you today?
+              </Typography>
+            }
             sx={{
               background: "#212121",
               color: "#fff",
@@ -116,9 +135,11 @@ const Chat = () => {
           <Avatar sx={{ bgcolor: "#212121", color: "#fff" }}>U</Avatar>
           <ListItemText
             primary="User"
-            secondary={<Typography
-              color="#ccc" 
-            >Hello! my name is Kritika. How can I help you today?</Typography> }
+            secondary={
+              <Typography color="#ccc">
+                Hello! my name is Kritika. How can I help you today?
+              </Typography>
+            }
             sx={{
               background: "#212121",
               color: "#fff",
@@ -131,9 +152,11 @@ const Chat = () => {
           <Avatar sx={{ bgcolor: "#212121", color: "#fff" }}>U</Avatar>
           <ListItemText
             primary="User"
-            secondary={<Typography
-              color="#ccc" 
-            >Hello! my name is Kritika. How can I help you today?</Typography> }
+            secondary={
+              <Typography color="#ccc">
+                Hello! my name is Kritika. How can I help you today?
+              </Typography>
+            }
             sx={{
               background: "#212121",
               color: "#fff",
