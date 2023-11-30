@@ -24,7 +24,7 @@ const Timer = () => {
 
   return (
     <div>
-      <h2>Timer:</h2>
+      <h2>Call duration:</h2>
       <p>{formatTime(seconds)}</p>
     </div>
   );
