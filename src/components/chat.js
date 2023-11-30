@@ -12,7 +12,7 @@ const Chat = () => {
   return (
     <Paper
       style={{
-        padding: 2,
+        padding: 16,
         width: "100%",
         backgroundColor: "#0E1118",
         borderRadius: 8,
@@ -21,27 +21,16 @@ const Chat = () => {
       <Typography variant="h5" gutterBottom style={{ color: "#fff" }}>
         Conversation
       </Typography>
-      <List>
+      <List style={{overflow:"scroll" , maxHeight:"670px"}}>
         <ListItem alignItems="flex-start">
-          <Avatar sx={{ bgcolor: "#2196F3", color: "#fff" }}>U</Avatar>
+          <Avatar sx={{ bgcolor: "#212121", color: "#fff" }}>U</Avatar>
           <ListItemText
             primary="User"
-            secondary="Hello! my name is Kritika. How can I help you today?"
+            secondary={<Typography
+              color="#ccc" 
+            >Hello! my name is Kritika. How can I help you today?</Typography> }
             sx={{
-              background: "#ccc",
-              color: "#000",
-              borderRadius: 8,
-              padding: "10px 25px",
-            }}
-          />
-        </ListItem>
-        <ListItem alignItems="flex-start">
-          <Avatar sx={{ bgcolor: "#8BC34A", color: "#fff" }}>B</Avatar>
-          <ListItemText
-            primary="Bot"
-            secondary="Hi, I am not able to perform my actions today."
-            sx={{
-              background: "#4CAF50",
+              background: "#212121",
               color: "#fff",
               borderRadius: 8,
               padding: "10px 25px",
@@ -49,12 +38,29 @@ const Chat = () => {
           />
         </ListItem>
         <ListItem alignItems="flex-start">
-          <Avatar sx={{ bgcolor: "#2196F3", color: "#fff" }}>U</Avatar>
+          <Avatar sx={{ bgcolor: "#212121", color: "#fff" }}>B</Avatar>
+          <ListItemText
+            primary="Bot"
+            secondary={<Typography
+              color="#ccc" 
+            >Hello! my name is Kritika. How can I help you today?</Typography> }
+            sx={{
+              background: "#212121",
+              color: "#fff",
+              borderRadius: 8,
+              padding: "10px 25px",
+            }}
+          />
+        </ListItem>
+        <ListItem alignItems="flex-start">
+          <Avatar sx={{ bgcolor: "#212121", color: "#fff" }}>U</Avatar>
           <ListItemText
             primary="User"
-            secondary="Hello! my name is Kritika. How can I help you today?"
+            secondary={<Typography
+              color="#ccc" 
+            >It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,</Typography> }
             sx={{
-              background: "#1976D2",
+              background: "#212121",
               color: "#fff",
               borderRadius: 8,
               padding: "10px 25px",
@@ -62,25 +68,81 @@ const Chat = () => {
           />
         </ListItem>
         <ListItem alignItems="flex-start">
-          <Avatar sx={{ bgcolor: "#8BC34A", color: "#fff" }}>B</Avatar>
+          <Avatar sx={{ bgcolor: "#212121", color: "#fff" }}>B</Avatar>
           <ListItemText
             primary="Bot"
-            secondary="Hi, I am not able to perform my actions today."
+            secondary={<Typography
+              color="#ccc" 
+            >Hello! my name is Kritika. How can I help you today?</Typography> }
             sx={{
-              background: "#4CAF50",
+              background: "#212121",
               color: "#fff",
               borderRadius: 8,
               padding: "10px 25px",
             }}
           />
         </ListItem>
-        {/* Add more messages as needed */}
+        <ListItem alignItems="flex-start">
+          <Avatar sx={{ bgcolor: "#212121", color: "#fff" }}>U</Avatar>
+          <ListItemText
+            primary="User"
+            secondary={<Typography
+              color="#ccc" 
+            >Hello! my name is Kritika. How can I help you today Hello! my name is Kritika. How can I help you today Hello! my name is Kritika. How can I help you today Hello! my name is Kritika. How can I help you today Hello! my name is Kritika. How can I help you today?</Typography> }
+            sx={{
+              background: "#212121",
+              color: "#fff",
+              borderRadius: 8,
+              padding: "10px 25px",
+            }}
+          />
+        </ListItem>
+        <ListItem alignItems="flex-start">
+          <Avatar sx={{ bgcolor: "#212121", color: "#fff" }}>U</Avatar>
+          <ListItemText
+            primary="User"
+            secondary={<Typography
+              color="#ccc" 
+            >Hello! my name is Kritika. How can I help you today?</Typography> }
+            sx={{
+              background: "#212121",
+              color: "#fff",
+              borderRadius: 8,
+              padding: "10px 25px",
+            }}
+          />
+        </ListItem>
+        <ListItem alignItems="flex-start">
+          <Avatar sx={{ bgcolor: "#212121", color: "#fff" }}>U</Avatar>
+          <ListItemText
+            primary="User"
+            secondary={<Typography
+              color="#ccc" 
+            >Hello! my name is Kritika. How can I help you today?</Typography> }
+            sx={{
+              background: "#212121",
+              color: "#fff",
+              borderRadius: 8,
+              padding: "10px 25px",
+            }}
+          />
+        </ListItem>
+        <ListItem alignItems="flex-start">
+          <Avatar sx={{ bgcolor: "#212121", color: "#fff" }}>U</Avatar>
+          <ListItemText
+            primary="User"
+            secondary={<Typography
+              color="#ccc" 
+            >Hello! my name is Kritika. How can I help you today?</Typography> }
+            sx={{
+              background: "#212121",
+              color: "#fff",
+              borderRadius: 8,
+              padding: "10px 25px",
+            }}
+          />
+        </ListItem>
       </List>
-      {/* Add a text input and send button if needed */}
-      {/* <TextField label="Type a message" fullWidth />
-      <Button variant="contained" color="primary" style={{ marginTop: 8 }}>
-        Send
-      </Button> */}
     </Paper>
   );
 };

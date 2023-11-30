@@ -19,12 +19,13 @@ function App() {
             display: "flex",
             flexDirection: "row",
             padding: "8px",
-            gap: 2,
+            gap: 1,
             margin: "8px 0",
+            borderRadius:2
           }}
         >
           <Chat />
-          <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
+          <Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
             <Mood />
             <Call />
           </Box>

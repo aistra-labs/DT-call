@@ -8,12 +8,14 @@ const Mood = () => {
       style={{
         padding: 16,
         width: 350,
+        height: 300,
         textAlign: "center",
         backgroundColor: "#0E1118",
+        borderRadius: 8,
       }}
     >
-      <CardHeader title="Feel Happy" />
-      <Typography variant="body1" style={{ padding: 16, color: "#fff" }}>
+      <CardHeader title="Feel Happy"  style={{ color: "#fff" }}/>
+      <Typography variant="body1" style={{ padding: 16, color: "#ccc" }}>
         Congratulations! You've chosen to feel happy today. Embrace the
         positivity and make it a great day!
       </Typography>
