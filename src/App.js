@@ -6,13 +6,15 @@ import Container from "@mui/material/Container";
 import Mood from "./components/mood";
 import Chat from "./components/chat";
 import Call from "./components/call";
+import CallManager from "./components/callManager";
+import YourComponent from "./components/test";
 
 function App() {
   return (
     <div className="App">
       <CssBaseline />
       <Container sx={{ padding: "16px" }}>
-        <Box
+        {/* <Box
           sx={{
             bgcolor: "#ffc107",
             height: "90vh",
@@ -21,7 +23,7 @@ function App() {
             padding: "8px",
             gap: 1,
             margin: "8px 0",
-            borderRadius:2
+            borderRadius: 2,
           }}
         >
           <Chat />
@@ -29,7 +31,9 @@ function App() {
             <Mood />
             <Call />
           </Box>
-        </Box>
+        </Box> */}
+        <CallManager />
+        {/* <YourComponent /> */}
       </Container>
     </div>
   );

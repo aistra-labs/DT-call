@@ -13,6 +13,13 @@ import Timer from "./timer";
 
 const Call = () => {
   const [showTimer, setShowTimer] = useState(false);
+
+  const [isCallActive, setIsCallActive] = useState(false);
+
+  const handleOnClick = () => {
+    setIsCallActive((prevState) => !prevState);
+    setShowTimer(true);
+  };
   return (
     <Paper
       style={{
@@ -51,9 +58,9 @@ const Call = () => {
             variant="outlined"
             color="success"
             startIcon={<CallIcon />}
-            onClick={() => setShowTimer(true)}
+            onClick={handleOnClick}
           >
-            Call
+            {isCallActive ? "End Call" : "Call Now"}
           </Button>
 
           {/* <Button variant="outlined" color="error" startIcon={<CallIcon />}>

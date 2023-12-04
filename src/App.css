@@ -1,7 +1,9 @@
 .App {
   text-align: center;
+  /* change color back */
   background-color: black;
   height: 100vh;
+  color: azure;
 }
 
 .App-logo {
